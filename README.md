@@ -1,0 +1,1 @@
+# Simulador de aventura de Ordem Paranormal em Lua
