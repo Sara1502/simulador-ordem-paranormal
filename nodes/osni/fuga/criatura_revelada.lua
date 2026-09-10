@@ -14,11 +14,11 @@ Você vira o cavalete. Não há tela nele, só um espelho rachado, e nele, por u
 Ela está atrás de você. Sempre esteve.
 ]]
 node.header = [[
-%{red}                        _.-""-._
-%{red}                      .'        '.
-%{white}                     /   ||||   \
-%{white}                    |    ||||    |
-%{white}                     \   ||||   /
+%{white}                       _.-""-._
+%{white}                     .'        '.
+%{red}                       /   ||||   \
+%{red}                      |    ||||    |
+%{red}                       \   ||||   /
 %{black}                      |        |
 %{black}                      |        |
 %{black}                     /|        |\

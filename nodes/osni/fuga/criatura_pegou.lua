@@ -8,11 +8,11 @@ local Node = require("node")
 local node = Node:new(ID) --- @type Node
 node.title = 'Ela só queria ver seu rosto.'
 node.header = [[
-%{red}                        _.-""-._
-%{red}                      .'        '.
-%{white}                     /   ||||   \
-%{white}                    |    ||||    |
-%{white}                     \   ||||   /
+%{white}                       _.-""-._
+%{white}                     .'        '.
+%{red}                       /   ||||   \
+%{red}                      |    ||||    |
+%{red}                       \   ||||   /
 %{black}                      |        |
 %{black}                      |        |
 %{black}                     /|        |\
