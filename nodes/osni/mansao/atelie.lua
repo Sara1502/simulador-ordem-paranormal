@@ -19,7 +19,10 @@ Foi então que você percebe: a mansão inteira está em silêncio absoluto. Sil
 -- Create choices
 table.insert(node.choices, Choice:new(
     'osni.fuga.criatura_revelada',
-    'Investigar o cavalete.'
+    'Investigar o cavalete.',
+    function()
+        return game.pistas >= 2
+    end
 ))
 table.insert(node.choices, Choice:new(
     'osni.fuga.inicio',

@@ -7,6 +7,7 @@ function GameData:initialize()
     self.activeNode = nil --- @type Node
     self.isOver = false --- @type boolean
     self.pistas = 0 --- @type number
+    self.hasLantern = false --- @type boolean
 end
 
 
