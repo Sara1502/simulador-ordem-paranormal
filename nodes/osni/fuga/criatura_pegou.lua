@@ -10,9 +10,9 @@ node.title = 'Ela só queria ver seu rosto.'
 node.header = [[
 %{white}                       _.-""-._
 %{white}                     .'        '.
-%{red}                       /   ||||   \
-%{red}                      |    ||||    |
-%{red}                       \   ||||   /
+%{red}                      /   ||||   \
+%{red}                     |    ||||    |
+%{red}                      \   ||||   /
 %{black}                      |        |
 %{black}                      |        |
 %{black}                     /|        |\

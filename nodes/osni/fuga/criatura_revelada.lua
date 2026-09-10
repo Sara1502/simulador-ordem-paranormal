@@ -16,9 +16,9 @@ Ela está atrás de você. Sempre esteve.
 node.header = [[
 %{white}                       _.-""-._
 %{white}                     .'        '.
-%{red}                       /   ||||   \
-%{red}                      |    ||||    |
-%{red}                       \   ||||   /
+%{red}                      /   ||||   \
+%{red}                     |    ||||    |
+%{red}                      \   ||||   /
 %{black}                      |        |
 %{black}                      |        |
 %{black}                     /|        |\
