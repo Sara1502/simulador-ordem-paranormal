@@ -39,3 +39,5 @@ table.insert(node.choices, Choice:new(
     'osni.fuga.inicio',
     'Fugir pela porta que você acabou de entrar.'
 ))
+
+return node

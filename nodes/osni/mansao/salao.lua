@@ -18,6 +18,7 @@ Um quatro, porém, é diferente dos outros. É o único com o rosto inteiro e el
 table.insert(node.choices, Choice:new(
     'osni.mansao.quadro_recente',
     'Examinar o quadrto de perto.',
+    nil,
     function()
         game.pistas = game.pistas + 1
     end

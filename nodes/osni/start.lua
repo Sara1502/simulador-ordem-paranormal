@@ -31,7 +31,7 @@ table.insert(node.choices, Choice:new(
     'Passar pela vila antes de subir até a mansão.'
 ))
 table.insert(node.choices, Choice:new(
-    'isni.mansao.terreo',
+    'osni.mansao.terreo',
     'Ir direto para a mansão, o quanto antes eu terminar melhor'
 ))
 

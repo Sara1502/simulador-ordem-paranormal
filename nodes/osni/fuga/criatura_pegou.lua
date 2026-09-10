@@ -29,3 +29,5 @@ node.header = [[
 ]]
 node.description = '%{red}Você sente os dedos frios, quase liquidos, se fechando em volta do seu rosto. A última coisa que vê é o proprio reflexo, borrado, escorrendo como tinta fresca pela parede.'
 node.gameOver = true
+
+return node

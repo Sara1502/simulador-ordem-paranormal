@@ -28,3 +28,5 @@ table.insert(node.choices, Choice:new(
     'osni.fuga.inicio',
     'Sair correndo do ateliê, algo está muito errado!'
 ))
+
+return node

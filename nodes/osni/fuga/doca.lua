@@ -1,5 +1,5 @@
 -- Constants
-local ID = ''
+local ID = 'osni.fuga.doca'
 
 -- Dependencies
 local Node = require("node")
@@ -10,11 +10,11 @@ local node = Node:new(ID) --- @type Node
 node.title = 'Ilha doca'
 node.description = 'O ar salgado bate no seu rosto assim que você chega na doca, e para sua sorte, um barco de pesca ainda está amarrado ali, balançando com a maré.'
 node.header = [[
-%{brown}                    ____________________
-%{brown}                   /                    \
-%{brown}                  /______________________\
-%{brown}                  |  |  |  |  |  |  |  |  |
-%{brown}                  |  |  |  |  |  |  |  |  |
+%{magenta}                    ____________________
+%{magenta}                   /                    \
+%{magenta}                  /______________________\
+%{magenta}                  |  |  |  |  |  |  |  |  |
+%{magenta}                  |  |  |  |  |  |  |  |  |
 %{cyan}      ~     ~     ~|  |~~~~~|  |~~~~~|  |~     ~     ~
 %{blue}   ~~~~~~~~~~~~~~~~|  |~~~~~~~~~~~~~~~~~|  |~~~~~~~~~~~~~~
 %{blue}  ~~~~~~~~~~~~~~~~~|  |~~~~~~~~~~~~~~~~~|  |~~~~~~~~~~~~~~~
@@ -27,3 +27,5 @@ table.insert(node.choices, Choice:new(
     'osni.fuga.final',
     'Entrar no barco e remar o mais rápido possível.'
 ))
+
+return node

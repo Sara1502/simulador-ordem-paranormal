@@ -19,6 +19,7 @@ Uma frase, sublinhada com força suficiente para resgar o papel, se repete três
 table.insert(node.choices, Choice:new(
     'osni.mansao.terreo',
     'Pegar o diário e voltar para o corredor',
+    nil,
     function()
         game.pistas = game.pistas + 1
     end

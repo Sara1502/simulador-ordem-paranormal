@@ -1,7 +1,8 @@
-local class = require("libs.middleclass")
+local class = require('libs.middleclass')
 
 --- @class Choice
 local Choice = class('Choice')
+
 
 function Choice:initialize(destination, description, condition, routine)
     self.destination = destination --- @type string
@@ -10,13 +11,13 @@ function Choice:initialize(destination, description, condition, routine)
     self.routine = routine --- @type function
 end
 
---- Retorna se a escolha tem uma condição a ser execultada.
+--- Retorna se a escolha tem uma condição a ser executada.
 --- @return boolean
 function Choice:hasCondition()
     return self.condition ~= nil
 end
 
---- Executa a função de condição e retorna se ela for autorizada
+--- Executa a função de condição e retorna se ela foi autorizada
 --- @return boolean
 function Choice:runCondition()
     if self.condition ~= nil and type(self.condition) == 'function' then

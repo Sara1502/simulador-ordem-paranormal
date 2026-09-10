@@ -26,3 +26,5 @@ table.insert(node.choices, Choice:new(
         return game.hasLantern == true
     end
 ))
+
+return node

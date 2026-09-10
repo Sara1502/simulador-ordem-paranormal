@@ -1,6 +1,6 @@
 local nodeLoader = {}
 
-local nodeDictionary = {} ---@type table<string, Node>
+local nodeDictionary = {} ---@type table<string,Node>
 local initialNode = nil ---@type Node
 local hasErrors = false
 
@@ -11,7 +11,7 @@ local function loadNode(path)
     local success, nodeOrErr = pcall(function()
         return require(path)
     end)
-     if not success then
+    if not success then
         warn('Falha ao carregar o node ' .. path .. '. O arquivo não foi encontrado.')
         hasErrors = true
         return nil
@@ -63,22 +63,27 @@ function nodeLoader.loadNodes()
     end
 end
 
-
---- Retorna todos os nodes criados por esse script
---- @return table<string, Node>
-function nodeLoader.gatNodes()
+---Retorna todos os nodes criados por esse script.
+---@return table<string, Node>
+function nodeLoader.getNodes()
     return nodeDictionary
 end
 
---- Retorna o node associado como ID
---- @param nodeId string
---- @return Node
+---Retorna o node associado com o ID
+---@param nodeId string
+---@return Node
 function nodeLoader.getNode(nodeId)
     return nodeDictionary[nodeId]
 end
 
---- Retorna o node inicial do simulador
---- @return boolean
+---Retorna o node inicial do simulador
+---@return Node
+function nodeLoader.getInitialNode()
+    return initialNode
+end
+
+---Retorna se o módulo encontrou erros durante sua execução.
+---@return boolean
 function nodeLoader.hasErrors()
     return hasErrors
 end

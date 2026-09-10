@@ -15,3 +15,5 @@ table.insert(node.choices, Choice:new(
     'osni.fuga.doca',
     'Correr até a doca.'
 ))
+
+return node

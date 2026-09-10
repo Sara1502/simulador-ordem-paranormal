@@ -1,5 +1,5 @@
 -- Constants
-local ID = 'osni.fuga.escada'
+local ID = 'osni.fuga.escadas'
 
 -- Dependencies
 local Node = require("node")
@@ -17,11 +17,13 @@ Mas você consegue levantar a tempo e sair correndo pela porta.
 ]]
 
 -- Create choices
-table.insert(node.choices, Choice.new(
+table.insert(node.choices, Choice:new(
     'osni.fuga.doca',
     'Desser o morro correndo, sem olhar para trás.'
 ))
 table.insert(node.choices, Choice:new(
-    'osni.fuga.criatura-pegou',
+    'osni.fuga.criatura_pegou',
     'Olhar para trás um segundo para ver o que te persegue'
 ))
+
+return node

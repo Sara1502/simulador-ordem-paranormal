@@ -7,7 +7,7 @@ local Choice = require("choice")
 
 -- Create node
 local node = Node:new(ID) --- @type Node
-node.title = ''
+node.title = 'Mansão'
 node.description = [[
 A porta da frente está destracada, na verdade, nem tem fechadura. Dentro, o pó cobre tudo como uma segunda pele. Lençóis escondem os móveis.
 

@@ -19,3 +19,5 @@ table.insert(node.choices, Choice:new(
     'osni.fuga.esconderijo',
     'Se esconder no armário mais próximo.'
 ))
+
+return node

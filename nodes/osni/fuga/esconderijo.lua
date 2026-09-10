@@ -19,3 +19,5 @@ table.insert(node.choices, Choice:new(
     'osni.fuga.criatura_pegou',
     'Sair devagar e seguir pelas escadas.'
 ))
+
+return node

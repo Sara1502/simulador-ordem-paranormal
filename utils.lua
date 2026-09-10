@@ -1,4 +1,4 @@
-local utils
+local utils = {}
 
 ---
 ---Essa função abilita o UTF-8 no terminal

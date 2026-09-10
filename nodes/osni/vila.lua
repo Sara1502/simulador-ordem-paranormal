@@ -31,7 +31,11 @@ node.header = [[
 -- Create choices
 table.insert(node.choices, Choice:new(
     'osni.mansao.terreo',
-    'Agradeçer e subir até a mansão.'
+    'Agradeçer e subir até a mansão.',
+    nil,
+    function()
+        return game.hasLantern == true
+    end
 ))
 
 return node

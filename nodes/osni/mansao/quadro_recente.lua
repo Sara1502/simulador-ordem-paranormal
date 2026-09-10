@@ -22,7 +22,7 @@ table.insert(node.choices, Choice:new(
     'Correr para a escada, rumo ao ateliê!'
 ))
 table.insert(node.choices, Choice:new(
-    'osni.fuga.fuga_esconderijo',
+    'osni.fuga.esconderijo',
     'Se esconder atrás dos lençóis mais próximos!'
 ))
 
