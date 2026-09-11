@@ -9,9 +9,11 @@ local Choice = require("choice")
 local node = Node:new(ID) --- @type Node
 node.title = 'Mansão'
 node.description = [[
-A porta da frente está destracada, na verdade, nem tem fechadura. Dentro, o pó cobre tudo como uma segunda pele. Lençóis escondem os móveis.
+A porta da frente está destracada, na verdade, nem tem fechadura. 
+Dentro, o pó cobre tudo como uma segunda pele. Lençóis escondem os móveis.
 
-Duas portas chamam atenção: uma entreaberta, deixando escapar o cheiro de mofo e papel velho, provavelmente a biblioteca. A outra, entallhada com molduras douradas, deve levar ao salão onde ficam os quadros.
+Duas portas chamam atenção: uma entreaberta, deixando escapar o cheiro de mofo e papel velho, 
+provavelmente a biblioteca. A outra, entallhada com molduras douradas, deve levar ao salão onde ficam os quadros.
 
 No fundo do corredor, uma escada em espiral sobe rumo ao segundo andar, onde certamente fica o ateliê.
 ]]

@@ -8,7 +8,10 @@ local Choice = require("choice")
 -- Create node
 local node = Node:new(ID) --- @type Node
 node.title = 'Ilha doca'
-node.description = 'O ar salgado bate no seu rosto assim que você chega na doca, e para sua sorte, um barco de pesca ainda está amarrado ali, balançando com a maré.'
+node.description = [[
+O ar salgado bate no seu rosto assim que você chega na doca, 
+e para sua sorte, um barco de pesca ainda está amarrado ali, balançando com a maré.
+]]
 node.header = [[
 %{magenta}                    ____________________
 %{magenta}                   /                    \

@@ -9,7 +9,9 @@ local Choice = require("choice")
 local node = Node:new(ID) ---@type Node
 node.title = 'Ateliê da mansão'
 node.description = [[
-Você vira o cavalete. Não há tela nele, só um espelho rachado, e nele, por uma fração de segundos, um reflexo que não é seu: uma figura alta, magram com o rosto escorrendo como se fosse tinta.
+Você vira o cavalete. Não há tela nele, só um espelho rachado, e nele,
+por uma fração de segundos, um reflexo que não é seu: uma figura alta, 
+magram com o rosto escorrendo como se fosse tinta.
 
 Ela está atrás de você. Sempre esteve.
 ]]

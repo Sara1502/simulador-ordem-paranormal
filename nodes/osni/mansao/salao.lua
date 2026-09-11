@@ -9,9 +9,13 @@ local Choice = require("choice")
 local node = Node:new(ID) --- @type Node
 node.title = 'Salão da mansão'
 node.description = [[
-Desenas de pinturas cobrem as paredes, todos do mesmo estilo inconfundível. Só que, quato mais você se aproxima, mais percebe o detalhe que te fez gelar: nenhum rosto esta completo. Onde deveria haver olhos, boca, nariz só há manchas de tinta borrada, como se tivesse derretido.
+Desenas de pinturas cobrem as paredes, todos do mesmo estilo inconfundível. 
+Só que, quato mais você se aproxima, mais percebe o detalhe que te fez gelar: 
+nenhum rosto esta completo. Onde deveria haver olhos, boca, nariz só há manchas 
+de tinta borrada, como se tivesse derretido.
 
-Um quatro, porém, é diferente dos outros. É o único com o rosto inteiro e ele parece ter sido pintado recentemente.
+Um quatro, porém, é diferente dos outros. 
+ o único com o rosto inteiro e ele parece ter sido pintado recentemente.
 ]]
 
 -- Create choices

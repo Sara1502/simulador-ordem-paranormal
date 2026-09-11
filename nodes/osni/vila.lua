@@ -9,7 +9,9 @@ local Choice = require("choice")
 local node = Node:new(ID) --- @type Node
 node.title = 'Vila da ilha de Tipora'
 node.description = [[
-A vila é pequena, mas muito charmosa. Uma senhara varre a varanda de sua casa e nem levanta os olhos quando você passa. Só um velho pescador, sentado num banco torto de frente para o mar, parece disposto a falar.
+A vila é pequena, mas muito charmosa. Uma senhara varre a varanda de sua casa e nem 
+levanta os olhos quando você passa. Só um velho pescador, sentado num banco torto de 
+frente para o mar, parece disposto a falar.
 
 Ele conta que ninguem sobe até a mansão há anos:
 "Desde que o farol parou de acender sozinho."

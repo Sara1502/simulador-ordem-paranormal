@@ -35,7 +35,11 @@ node.header = [[
 -- Create choices
 table.insert(node.choices, Choice:new(
     'osni.start',
-    'O segredo na ilha'
+    '%{black}O segredo na ilha'
+))
+table.insert(node.choices, Choice:new(
+    'sdol.start',
+    '%{green}Sinais do outro lado'
 ))
 
 return node

@@ -9,12 +9,15 @@ local Choice = require("choice")
 local node = Node:new(ID) --- @type Node
 node.title = 'Ilha de Tipora'
 node.description = [[
-O barco range contra o cais de madeira apodrecida enquanto você desembarca. Foram contratados seus serviços ára caralogar o acervo de um pintor desaparecido há mais de 20 anos e finalmente a família dele decidiu abrir a antiga mansão da ilha.
+O barco range contra o cais de madeira apodrecida enquanto você desembarca. 
+Foram contratados seus serviços ára caralogar o acervo de um pintor desaparecido 
+há mais de 20 anos e finalmente a família dele decidiu abrir a antiga mansão da ilha.
 
 O barqueiro não desliga o motor. "Eu volto na sexta", ele diz, sem olhar para trás.
 "Se precisar antes disso... boa sorte pra atravessar a nado."
 
-À sua frente, um punhado de casas de pescadores margeia a praia. Mais adiante, no topo do morro, a silhueta da mansão por entre a neblina.
+À sua frente, um punhado de casas de pescadores margeia a praia. Mais adiante, no topo do morro, 
+a silhueta da mansão por entre a neblina.
 ]]
 node.header = [[
 %{cyan}        __

@@ -9,7 +9,8 @@ local Choice = require("choice")
 local node = Node:new(ID) --- @type Node
 node.title = 'Esconderijo'
 node.description = [[
-Você se esconde e prende a respiração. Passos lentos se aproximam e param bem na sua frente. Por um instante insuportável, nada acontece.
+Você se esconde e prende a respiração. Passos lentos se aproximam e param bem na sua frente.
+Por um instante insuportável, nada acontece.
 
 Então os passos se afastam.
 ]]

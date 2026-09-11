@@ -9,7 +9,9 @@ local Choice = require("choice")
 local node = Node:new(ID) --- @type Node
 node.title = 'Mansão escadas'
 node.description = [[
-Você desce as escadas aos tropeços, qunado chega no fim da escada sai correndo o mais rápido que você consegue em direção a porta, porém, no meio do desespeiro, você acaba tropeçando em uma tábua solta do piso e cai no chão.
+Você desce as escadas aos tropeços, qunado chega no fim da escada sai 
+correndo o mais rápido que você consegue em direção a porta, porém, 
+no meio do desespeiro, você acaba tropeçando em uma tábua solta do piso e cai no chão.
 
 O som de algo arrastando fica mais alto atrás de você.
 
