@@ -12,7 +12,8 @@ node.description = [[
 O corredor se bifurca. 
 À esquerda, um lance de escadas escuras. 
 À direira, o brilho fraco de luz vindo da cozinha. 
-Uma janela quebrada, à frente, deixa entrar o vento gelado da noite.'
+Uma janela quebrada, à frente, deixa entrar o vento gelado da noite.
+]]
 
 -- Create choices
 table.insert(node.choices, Choice:new(
